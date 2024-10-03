@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import Button from "../../cards/buttons/Button";
 import hero from "../../assets/profile1.jpeg";
-
+import resume from "../../assets/Nishant-Resume.pdf";
 
 const Hero = ({ onClick }) => {
   //framer motion animation variants
@@ -79,12 +79,14 @@ const Hero = ({ onClick }) => {
                 Hire Me
               </button>
               <Button
-                href=" https://app.luminpdf.com/viewer/66fbb969f1c14a382cf4c491"
+                // href=" https://app.luminpdf.com/viewer/66fbb969f1c14a382cf4c491"
                 className="btn"
                 target="blank"
               >
-                Download CV
-                <i className="fa-solid fa-download"></i>
+                <a href={resume} download="resume">
+                  Download CV
+                  <i className="fa-solid fa-download"></i>
+                </a>
               </Button>
             </div>
           </motion.div>
