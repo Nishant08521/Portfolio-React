@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import Button from "../../cards/buttons/Button";
 import about from "../../assets/about.img1.jpg";
+import resume from "../../assets/Nishant-Resume.pdf";
 
 const About = () => {
   const handleClick = () => {
@@ -121,13 +122,11 @@ const About = () => {
               />
             </div>
 
-            <Button
-              href="https://app.luminpdf.com/viewer/66fbb969f1c14a382cf4c491"
-              className="btn alt-text"
-              target="blank"
-            >
-              Download CV
-              <i className="fa-solid fa-download"></i>
+            <Button className="btn alt-text" target="blank">
+              <a href={resume} download="resume">
+                Download CV
+                <i className="fa-solid fa-download"></i>
+              </a>
             </Button>
           </motion.div>
         </div>
