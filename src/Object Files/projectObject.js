@@ -3,6 +3,16 @@ import { v4 as uuid } from "uuid";
 export const projectData = [
   {
     id: uuid(),
+    title: "Company website",
+    image: "./asstes/company.png",
+    description: "Create A Amazing IT Company website",
+    stacks: ["React", "React router dom", "API", "Framer Motion", "Tailwind"],
+    liveSite: "https://company-website-wheat-five.vercel.app/",
+    github: "https://github.com/Nishant08521/Company-Website",
+    design: "Nishant",
+  },
+  {
+    id: uuid(),
     title: "Agency",
     image: "./asstes/agency1.png",
     description: "Create A Amazing Router Agency website",
@@ -29,17 +39,6 @@ export const projectData = [
     stacks: ["React", "Framer Motion", "Router", "Styled Component"],
     liveSite: "https://todo-react-one-eosin.vercel.app/",
     github: "https://github.com/Nishant08521/Todo-react",
-    design: "Nishant",
-  },
-
-  {
-    id: uuid(),
-    title: "Sundown studio",
-    image: "./asstes/sundown.webp",
-    description: "Create A Amazing Animated Sudio",
-    stacks: ["Html", "CSS", "Javascript"],
-    liveSite: "https://nishant08521.github.io/sundown.studio/",
-    github: "https://github.com/Nishant08521/sundown.studio",
     design: "Nishant",
   },
 ];
