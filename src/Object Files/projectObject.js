@@ -11,16 +11,7 @@ export const projectData = [
     github: "https://github.com/Nishant08521/Company-Website",
     design: "Nishant",
   },
-  {
-    id: uuid(),
-    title: "Agency",
-    image: "./asstes/agency1.png",
-    description: "Create A Amazing Router Agency website",
-    stacks: ["React", "React router dom", "API", "Framer Motion"],
-    liveSite: "https://agency-website-react-nine.vercel.app/",
-    github: "https://github.com/Nishant08521/Agency-website-react",
-    design: "Nishant",
-  },
+
   {
     id: uuid(),
     title: "Tomato Food Delivery ",
@@ -31,6 +22,17 @@ export const projectData = [
     github: "https://github.com/Nishant08521/Tomato-Food-delivery-React",
     design: "Nishant",
   },
+  {
+    id: uuid(),
+    title: "Agency",
+    image: "./asstes/agency1.png",
+    description: "Create A Amazing Router Agency website",
+    stacks: ["React", "React router dom", "API", "Framer Motion"],
+    liveSite: "https://agency-website-react-nine.vercel.app/",
+    github: "https://github.com/Nishant08521/Agency-website-react",
+    design: "Nishant",
+  },
+
   {
     id: uuid(),
     title: "Todos ",
